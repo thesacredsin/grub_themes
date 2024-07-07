@@ -1,4 +1,4 @@
-Nobara Grub Themer
+Grub Themer
 ======================================
 Install Bootloader Themes with ease.
 
