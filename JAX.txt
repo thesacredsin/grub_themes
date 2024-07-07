@@ -1,0 +1,28 @@
+Installing CyberRe theme...
+mkdir -p "/boot/grub/themes/CyberRe"
+cp -a ./themes/"CyberRe"/* "/boot/grub/themes/CyberRe"
+
+Enabling grub menu
+sed -i '/GRUB_TIMEOUT_STYLE=/d' /etc/default/grub
+echo 'GRUB_TIMEOUT_STYLE="menu"' >> /etc/default/grub
+
+Setting grub timeout to 60 seconds
+sed -i '/GRUB_TIMEOUT=/d' /etc/default/grub
+echo 'GRUB_TIMEOUT="60"' >> /etc/default/grub
+
+Setting CyberRe as default
+sed -i '/GRUB_THEME=/d' /etc/default/grub
+echo "GRUB_THEME="/boot/grub/themes/CyberRe/theme.txt"" >> /etc/default/grub
+
+Setting grub graphics mode to auto
+sed -i '/GRUB_GFXMODE=/d' /etc/default/grub
+echo 'GRUB_GFXMODE="auto"' >> /etc/default/grub
+
+Updating grub config...
+update-grub
+Generating grub configuration file ...
+Found Windows Boot Manager on /dev/sda1@/efi/Microsoft/Boot/bootmgfw.efi
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Boot Theme Update Successful!
+
