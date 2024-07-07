@@ -6,8 +6,8 @@
 # * @license MIT
 # * @author  "Chris Titus" <contact@christitus.com>
 # * @author  "Matthias Morin" <mat@tangoman.io>
-# * @version 1.0.0
-# * @link    https://youtu.be/BAyzHP1Cqb0
+# * @version 1.0.1
+# * @updated by thesacredsin
 # */
 
 #THEME_DIR='/usr/share/grub/themes'
@@ -181,7 +181,7 @@ function update_grub() {
 }
 
 function main() {
-    splash 'Nobara GRUB Theme Changer'
+    splash 'GRUB Theme Changer'
 
     check_root
     select_theme
