@@ -7,9 +7,9 @@ Installation
 
 Simply enter following commands in your terminal :
 
-$ git clone https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes
+$ git clone https://github.com/thesacredsin/grub_themes
 
-$ cd Top-5-Bootloader-Themes
+$ cd grub_themes
 
 $ sudo ./install.sh
 
