@@ -13,7 +13,7 @@ $ cd grub_themes
 
 $ sudo ./install.sh
 
-💻 Dependencies
+Dependencies
 ---------------
 Requires the following dependencies:
 - git
