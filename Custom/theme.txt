@@ -1,0 +1,37 @@
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Poppins Regular 20"
+terminal-border: "0"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+
++ boot_menu {
+    left = 27%
+    top = 13%
+    width = 54%
+    height = 74%
+    item_font = "Poppins Regular 20"
+    item_color = "#BBBBBB"
+    selected_item_color = "#3BB3FB"
+    icon_width = 59
+    icon_height = 59
+    item_icon_space = 37
+    item_height = 73
+    item_padding = 5
+    item_spacing = 19
+}
+
++ progress_bar {
+    id = "__timeout__"
+    left = 27%
+    top = 92%
+    width = 45%
+    height = 5%
+    show_text = false
+    fg_color = "#3BB3FB"
+    bg_color = "#2C2C2C"
+    border_color = "#FFFFFF"
+}
