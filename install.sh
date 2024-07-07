@@ -48,16 +48,22 @@ function check_root() {
 }
 
 function select_theme() {
-    themes=('Custom' 'Cyberpunk' 'Shodan' 'fallout' 'CyberRe' 'CyberSynchro' 'CyberEXS' 'CRT' 'BIOS' 'retro'  'Quit')
+    themes=('Nobara' 'Custom' 'Cyberpunk' 'Cyberpunk_2077' 'Shodan' 'fallout' 'CyberRe' 'CyberSynchro' 'CyberEXS' 'CRT' 'BIOS' 'retro'  'Quit')
 
     PS3=$(echo_prompt '\nChoose The Theme You Want: ')
     select THEME_NAME in "${themes[@]}"; do
         case "${THEME_NAME}" in
+            'Nobara')
+                splash 'Installing Nobara Theme...'
+                break;;
             'Custom')
                 splash 'Installing Custom Theme...'
                 break;;
             'Cyberpunk')
                 splash 'Installing Cyberpunk Theme...'
+                break;;
+            'Cyberpunk_2077')
+                splash 'Installing Cyberpunk_2077 Theme...'
                 break;;
             'Shodan')
                 splash 'Installing Shodan Theme...'
