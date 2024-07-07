@@ -31,4 +31,4 @@ Distributed under the MIT license.
 
 Acknowledgements
 -------------------
-Chris Titus Tech: https://www.youtube.com/@christitustech
+This was inspired and forked from Chris Titus Tech: https://www.youtube.com/@christitustech, go drop a subscribe there.
