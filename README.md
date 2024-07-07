@@ -1,28 +1,15 @@
-![GH language](https://img.shields.io/github/languages/top/ChrisTitusTech/Top-5-Bootloader-Themes)
-![GH license](https://img.shields.io/github/license/ChrisTitusTech/Top-5-Bootloader-Themes)
-![GH stars](https://img.shields.io/github/stars/ChrisTitusTech/Top-5-Bootloader-Themes)
-![Bash CI](https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes/workflows/bash_unit%20CI/badge.svg)
-![Shellcheck CI](https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes/workflows/Shellcheck%20CI/badge.svg)
-
-ChrisTitusTech Top 5 Bootloader Themes
+Nobara Grub Themer
 ======================================
-
 Install Bootloader Themes with ease.
 
-- Chris Titus Tech Channel : [https://www.youtube.com/@christitustech](https://www.youtube.com/@christitustech)
-- Chris Titus Tech YouTube Video : [Bootloader Themes | Install & Configuration](https://www.youtube.com/watch?v=BAyzHP1Cqb0)
-- Full Walkthrough : [https://christitus.com/bootloader-themes](https://christitus.com/bootloader-themes)
-
-🚀 Installation
+Installation
 ---------------
 
 Simply enter following commands in your terminal :
 
-```bash
 $ git clone https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes
 $ cd Top-5-Bootloader-Themes
 $ sudo ./install.sh
-```
 
 💻 Dependencies
 ---------------
