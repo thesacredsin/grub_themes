@@ -6,12 +6,14 @@ Installation
 ---------------
 
 Simply enter following commands in your terminal :
+1. Edit /etc/default/grub and comment out the below line:
+   #GRUB_TERMINAL_OUTPUT="console"
 
-$ git clone https://github.com/thesacredsin/grub_themes
+2. git clone https://github.com/thesacredsin/grub_themes
 
-$ cd grub_themes
+3. cd grub_themes
 
-$ sudo ./install.sh
+4. sudo ./install.sh
 
 Usage
 ---------------
