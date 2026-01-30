@@ -37,15 +37,15 @@ check_root() {
 }
 
 splash() {
-  $DIALOG --title "GRUB Theme Changer" \
-    --msgbox "Welcome to the GRUB Theme Changer\n\nChoose a theme to install." 10 50
+  $DIALOG --title "GRUB and PLYMOUTH Theme Changer" \
+    --msgbox "Choose a theme to install." 10 50
 }
 
 select_theme() {
   choice=$(
     $DIALOG --clear \
       --title "Select Theme" \
-      --menu "Choose a GRUB theme:" \
+      --menu "Choose a GRUB theme(Nobara Plymouth Logo will also be installed):" \
       $HEIGHT $WIDTH 13 \
       "${themes[@]}" \
       3>&1 1>&2 2>&3
