@@ -37,8 +37,8 @@ check_root() {
 }
 
 splash() {
-  $DIALOG --title "GRUB and PLYMOUTH Theme Changer" \
-    --msgbox "Choose a theme to install." 10 50
+  $DIALOG --title "Nobara GRUB and PLYMOUTH Theme Changer" \
+    --msgbox "Click OK to Select a theme and install it." 10 50
 }
 
 select_theme() {
