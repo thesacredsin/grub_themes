@@ -7,7 +7,7 @@
 # * @author  "Chris Titus" <contact@christitus.com>
 # * @author  "Matthias Morin" <mat@tangoman.io>
 # * @version 1.0.1
-# * @updated by thesacredsin
+# * @updated by thesacredsin for Nobara, and added Plymouth watermark support
 # */
 
 #THEME_DIR='/usr/share/grub/themes'

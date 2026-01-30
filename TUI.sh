@@ -1,5 +1,15 @@
 #!/bin/bash
 
+#/**
+# * ChrisTechTips Grub2 Theme Installer
+# *
+# * @license MIT
+# * @author  "Chris Titus" <contact@christitus.com>
+# * @author  "Matthias Morin" <mat@tangoman.io>
+# * @version 1.0.1
+# * @updated by thesacredsin for Nobara, and added TUI and Plymouth watermark support
+# */
+
 THEME_DIR='/boot/grub/themes'
 THEME_NAME=""
 
