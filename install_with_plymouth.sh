@@ -152,12 +152,22 @@ function config_grub() {
     #--------------------------------------------------
 
     echo_primary 'Setting grub graphics mode to auto'
-    # remove default timeout if any
+    # grub graphics mode to auto
     echo_info "sed -i '/GRUB_GFXMODE=/d' /etc/default/grub"
     sed -i '/GRUB_GFXMODE=/d' /etc/default/grub
 
     echo_info "echo 'GRUB_GFXMODE=\"auto\"' >> /etc/default/grub"
-    echo 'GRUB_GFXMODE="auto"' >> /etc/default/grub   
+    echo 'GRUB_GFXMODE="auto"' >> /etc/default/grub
+
+    #--------------------------------------------------
+
+    echo_primary 'Setting grub terminal output to gfxterm'
+    # grub terminal output to gfxterm
+    echo_info "sed -i '/GRUB_TERMINAL_OUTPUT=/d' /etc/default/grub"
+    sed -i '/GRUB_TERMINAL_OUTPUT=/d' /etc/default/grub
+
+    echo_info "echo 'GRUB_TERMINAL_OUTPUT=\"gfxterm\"' >> /etc/default/grub"
+    echo 'GRUB_TERMINAL_OUTPUT="gfxterm"' >> /etc/default/grub
 }
 
 function update_grub() {
