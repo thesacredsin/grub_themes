@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=GRUB Theme Installer
+Exec=grub-theme-installer
+Icon=grub-theme-installer
+Type=Application
+Categories=System;Settings;
+Comment=Install GRUB and Plymouth themes
+Terminal=true

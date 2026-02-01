@@ -1,0 +1,18 @@
+#!/bin/bash
+# AppRun script for GRUB Theme Installer
+
+APPDIR="$(dirname "$(readlink -f "${0}")")"
+export APPDIR
+
+# Check if dialog is available on the system
+if ! command -v dialog &>/dev/null; then
+    echo "Error: 'dialog' is not installed on your system."
+    echo "Please install it using your package manager:"
+    echo "  - Debian/Ubuntu: sudo apt install dialog"
+    echo "  - Fedora/RHEL: sudo dnf install dialog"
+    echo "  - Arch: sudo pacman -S dialog"
+    exit 1
+fi
+
+# Execute the main installer
+exec "${APPDIR}/usr/bin/grub-theme-installer" "$@"
