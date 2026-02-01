@@ -96,7 +96,7 @@ regenerate_initramfs() {
   $DIALOG --infobox "Regenerating initramfs with dracut..." 5 50
   sleep 1
   if command -v dracut &>/dev/null; then
-    dracut -f --regenerate-all
+    dracut -f --regenerate-all --verbose
   fi
 }
 main() {
