@@ -212,7 +212,7 @@ class GRUBThemeApp(App):
     def compose(self) -> ComposeResult:
         yield Header()
         yield Container(
-            Static("⚙️  GRUB Theme Installer", id="title"),
+            Static("⚙️ Nobara GRUB and PLYMOUTH Theme Changer ⚙️", id="title"),
             Static("Select a theme to install on your system", id="subtitle"),
             SelectionList[str](
                 *[Selection(theme, theme, False) for theme in THEMES],
